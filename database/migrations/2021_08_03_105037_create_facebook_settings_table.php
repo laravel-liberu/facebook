@@ -11,9 +11,10 @@ class CreateFacebookSettingsTable extends Migration
         Schema::create('facebook_settings', function (Blueprint $table) {
             $table->increments('id');
 
-            $table->string('domain_verification')->boolean();
             $table->string('verification_code')->nullable();
             $table->string('page_id')->nullable();
+
+            $table->boolean('domain_verification');
 
             $table->timestamps();
         });
