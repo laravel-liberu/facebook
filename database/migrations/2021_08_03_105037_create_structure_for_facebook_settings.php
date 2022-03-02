@@ -2,7 +2,7 @@
 
 use LaravelEnso\Migrator\Database\Migration;
 
-class CreateStructureForFacebookSettings extends Migration
+return new class extends Migration
 {
     protected ?string $parentMenu = 'Facebook';
 
@@ -14,4 +14,4 @@ class CreateStructureForFacebookSettings extends Migration
         ['name' => 'integrations.facebook.settings.index', 'description' => 'Show settings for Facebook', 'is_default' => false],
         ['name' => 'integrations.facebook.settings.update', 'description' => 'Update Facebook settings', 'is_default' => false],
     ];
-}
+};
