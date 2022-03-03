@@ -16,7 +16,7 @@ class Settings
 
     public function edit(Model $settings)
     {
-        return (new Form(static::TemplatePath))->edit($settings);
+        return $this->form->edit($settings);
     }
 
     protected function templatePath(): string
