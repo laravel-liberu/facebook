@@ -40,5 +40,8 @@
                 "LaravelEnso\\Facebook\\AppServiceProvider"
             ]
         }
+    },
+    "require-dev": {
+        "rector/rector": "^0.17.0"
     }
 }
