@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Facebook\Models;
+namespace LaravelLiberu\Facebook\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use LaravelEnso\Rememberable\Traits\Rememberable;
+use LaravelLiberu\Rememberable\Traits\Rememberable;
 
 class Settings extends Model
 {

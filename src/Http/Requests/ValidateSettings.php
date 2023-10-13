@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Facebook\Http\Requests;
+namespace LaravelLiberu\Facebook\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Facebook;
+namespace LaravelLiberu\Facebook;
 
 use Illuminate\Support\ServiceProvider;
 

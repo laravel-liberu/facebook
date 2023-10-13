@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Facebook\Http\Controllers\Settings;
+namespace LaravelLiberu\Facebook\Http\Controllers\Settings;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Facebook\Forms\Builders\Settings as Form;
-use LaravelEnso\Facebook\Models\Settings;
+use LaravelLiberu\Facebook\Forms\Builders\Settings as Form;
+use LaravelLiberu\Facebook\Models\Settings;
 
 class Index extends Controller
 {

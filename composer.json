@@ -30,14 +30,14 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelEnso\\Facebook\\": "src/",
-            "LaravelEnso\\Facebook\\Database\\Factories\\": "database/factories/"
+            "LaravelLiberu\\Facebook\\": "src/",
+            "LaravelLiberu\\Facebook\\Database\\Factories\\": "database/factories/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelEnso\\Facebook\\AppServiceProvider"
+                "LaravelLiberu\\Facebook\\AppServiceProvider"
             ]
         }
     },

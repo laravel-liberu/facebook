@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Facebook\Http\Controllers\Settings;
+namespace LaravelLiberu\Facebook\Http\Controllers\Settings;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Facebook\Http\Requests\ValidateSettings;
-use LaravelEnso\Facebook\Models\Settings;
+use LaravelLiberu\Facebook\Http\Requests\ValidateSettings;
+use LaravelLiberu\Facebook\Models\Settings;
 
 class Update extends Controller
 {

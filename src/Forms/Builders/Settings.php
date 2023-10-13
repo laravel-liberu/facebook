@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Facebook\Forms\Builders;
+namespace LaravelLiberu\Facebook\Forms\Builders;
 
-use LaravelEnso\Facebook\Models\Settings as Model;
-use LaravelEnso\Forms\Services\Form;
+use LaravelLiberu\Facebook\Models\Settings as Model;
+use LaravelLiberu\Forms\Services\Form;
 
 class Settings
 {
